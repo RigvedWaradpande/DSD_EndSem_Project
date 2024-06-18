@@ -1,0 +1,173 @@
+$date
+	Tue Nov 14 11:26:24 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module three_layer_encryption_decryption_tb $end
+$scope module u_encryptor $end
+$var wire 1 ! clk $end
+$var wire 8 " in_data [7:0] $end
+$var wire 1 # rst_n $end
+$var reg 8 $ circular_shifted [7:0] $end
+$var reg 8 % encrypted_data [7:0] $end
+$var reg 8 & grey_code [7:0] $end
+$var reg 8 ' inverted_bits [7:0] $end
+$upscope $end
+$upscope $end
+$scope module three_layer_encryption_decryption_tb $end
+$scope module u_decryptor $end
+$var wire 1 ! clk $end
+$var wire 8 ( decrypted_data [7:0] $end
+$var wire 1 # rst_n $end
+$var wire 8 ) encrypted_data [7:0] $end
+$var reg 8 * circular_shifted [7:0] $end
+$var reg 8 + grey_code [7:0] $end
+$var reg 8 , inverted_bits [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 ,
+b0 +
+b0 *
+b0 )
+b0 (
+b0 '
+b0 &
+b0 %
+b0 $
+0#
+b11000101 "
+0!
+$end
+#5
+1!
+#10
+0!
+1#
+#15
+b11111111 %
+b11111111 )
+b11100010 $
+b11111111 '
+b11111111 ,
+1!
+#20
+0!
+#25
+b11111111 +
+b0 ,
+b100110 &
+1!
+#30
+0!
+#35
+b11011001 %
+b11011001 )
+b11011001 '
+b11111110 +
+b11111111 (
+b11111111 *
+1!
+#40
+0!
+#45
+b1111111 (
+b1111111 *
+b11111100 +
+b100110 ,
+1!
+#50
+0!
+#55
+b11011110 +
+b1111110 (
+b1111110 *
+1!
+#60
+0!
+#65
+b1101111 (
+b1101111 *
+b10011010 +
+1!
+#70
+0!
+#75
+b10010 +
+b1001101 (
+b1001101 *
+1!
+#80
+0!
+#85
+b1001 (
+b1001 *
+b10 +
+1!
+#90
+0!
+#95
+b100010 +
+b1 (
+b1 *
+1!
+#100
+0!
+#105
+b10001 (
+b10001 *
+b1100010 +
+1!
+#110
+0!
+#115
+b11100010 +
+b110001 (
+b110001 *
+1!
+#120
+0!
+#125
+b1110001 (
+b1110001 *
+1!
+#130
+0!
+#135
+1!
+#140
+0!
+#145
+1!
+#150
+0!
+#155
+1!
+#160
+0!
+#165
+1!
+#170
+0!
+#175
+1!
+#180
+0!
+#185
+1!
+#190
+0!
+#195
+1!
+#200
+0!
+#205
+1!
+#210
+0!
